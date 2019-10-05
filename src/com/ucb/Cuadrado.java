@@ -2,6 +2,7 @@ package com.ucb;
 
 public class Cuadrado extends Figura
 {
+    private int largo;
     Cuadrado()
     {
         //super();
@@ -9,8 +10,12 @@ public class Cuadrado extends Figura
     }
 
     @Override()
-    public void dibujar()
-    {
+    public void dibujar() {
         System.out.println("Dibujando Cuadrado");
+    }
+
+    @Override
+    protected void leerDatos() {
+        System.out.println("Leyendo");
     }
 }

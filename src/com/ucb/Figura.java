@@ -1,6 +1,6 @@
 package com.ucb;
 
-public class Figura
+public abstract class Figura
 {
     Figura()
     {
@@ -10,5 +10,5 @@ public class Figura
     {
         System.out.println("Dibujando ...");
     }
-
+    protected abstract  void leerDatos();
 }
